@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/all.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<title>Yummy Exam</title>
+</head>
+
+<body >
+	<!-- loading screen -->
+	<div class="loading-screen   align-items-center justify-content-center position-fixed">
+		<i class="fa-solid fa-spinner fa-spin-pulse fa-10x"></i>
+	</div>
+
+	<section>
+		<!--start header -->
+		<aside class="header position-fixed  d-flex flex-column justify-content-between align-items-center">
+			<div class="logo py-4  mx-1">
+				<img src="images/favpng_organic-food-logo-brand.png" class="w-100" />
+			</div>
+			<div class="header-menu ">
+				<i class="fa fa-align-justify fa-2x"></i>
+			</div>
+
+			<div >
+				<div class="earth pt-2">
+					<span>
+						<i class="fa-solid fa-earth-americas"></i>
+					</span>
+				</div>
+				<div class="share pt-2">
+					<span>
+						<i class="fa-solid fa-share-from-square"></i>
+					</span>
+				</div>
+			</div>
+		</aside>
+<!-- End header -->
+<!-- start menu -->
+		<div class="menu">
+			<div class="navbar-item">
+				<ul>
+					<li class="item1">
+						<a data-list="search" class="navbar-category">Search</a>
+					</li>
+					<li class="item1">
+						<a data-list="categories" class="navbar-category">Categories</a>
+					</li>
+					<li class="item2">
+						<a data-list="a" class="navbar-category">Area</a>
+					</li>
+					<li class="item3">
+						<a data-list="i" class="navbar-category">Ingredients</a>
+					</li>
+					<li class="item6">
+						<a data-list="contact" class="navbar-category">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="socials">
+				<a href="https://www.facebook.com/profile.php?id=100007401273760"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://twitter.com/hager56388437"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.google.com"><i class="fas fa-globe"></i></a>
+				<div class="pt-3">
+					<span>Copyright Hager Mohamed &hearts; 2022 All Rights Reserved</span>
+				</div>
+			</div>
+		</div>
+		<!-- End menu -->
+	</section>
+
+	<section class="py-5">
+		<div id="search" class="pto container w-75 position-fixed top-0 "></div>
+		<section class="container text-center">
+			<div class="row" id="reseption"></div>
+		</section>
+
+		<section class="container w-75 text-center my-1 py-2 mt-5 position-relative">
+			<div class="loading-container d-none">
+				<div class="sm-loading position-absolute d-flex justify-content-center align-items-center vh-100">
+					<i class="fa fa-spinner fa-spin fa-4x"></i>
+				</div>
+			</div>
+
+			<div class="row mt-3 p-2" id="rowData"></div>
+		</section>
+	</section>
+
+	<script src="js/jquery-3.6.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
